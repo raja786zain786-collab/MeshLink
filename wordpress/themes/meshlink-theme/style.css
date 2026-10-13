@@ -1,0 +1,40 @@
+/*
+Theme Name: MeshLink
+Theme URI: https://meshlink.local
+Author: MeshLink Engineering Team
+Author URI: https://meshlink.local
+Description: High-performance, offline-first peer-to-peer messaging WordPress theme with authentic WhatsApp UI/UX design, dark theme, and Bluetooth mesh integration.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: meshlink
+Tags: offline, messaging, bluetooth, peer-to-peer, dark-mode, mobile-first, whatsapp-style
+*/
+
+:root {
+  --wa-bg-deep: #0b141a;
+  --wa-bg-panel: #111b21;
+  --wa-bg-header: #202c33;
+  --wa-bg-input: #2a3942;
+  --wa-border: #222e35;
+  --wa-green-primary: #00a884;
+  --wa-green-hover: #02906f;
+  --wa-outgoing-bubble: #005c4b;
+  --wa-incoming-bubble: #202c33;
+  --wa-text-primary: #e9edef;
+  --wa-text-muted: #8696a0;
+  --wa-blue-ticks: #53bdeb;
+}
+
+body.meshlink-theme {
+  margin: 0;
+  padding: 0;
+  background-color: var(--wa-bg-deep);
+  color: var(--wa-text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
